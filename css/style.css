@@ -27,6 +27,12 @@ p {
     margin: 0;
 }
 
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .header {
     border-bottom: 1px solid #ECECEC;
 }
@@ -141,26 +147,21 @@ a {
 
 .effective {
     background: var(--black-color);
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .effective-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
-
-    
-
-    padding-top: 106px;
-    margin-bottom: 30px;
-   
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--fourth-color);
+    
 }
 
 .effective-btn {
-    
-
     font-weight: 900;
     font-size: 16px;
     line-height: 1.9;
@@ -170,11 +171,11 @@ a {
     background-color: var(--brand-color);
     color: var(--fourth-color);
     min-width: 200px;
-    margin-bottom: 200px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border-color: transparent;
     cursor: pointer;
+    margin-top: 30px;
 }
 
 .effective-btn:hover,
@@ -188,14 +189,14 @@ a {
 
 .hide {
     opacity: 0;
-    font-size: 20px;
+    font-size: 1px;
+
 }
 
 .рeculiarities-tit-hide {
     font-size: 36px;
     line-height: 1.17;
-    margin-top: 94px; 
-    margin-bottom: 50px;
+    
     text-align: center;
 }
 
@@ -227,14 +228,14 @@ a {
     line-height: 1.17;
     text-align: center;
     margin-bottom: 50px;
-    margin-top: 94px;
+    
 }
 
 .we-doing-block {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 94px;
+    
 }
 
 .our-team {
@@ -246,7 +247,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-bottom: 94px;
+    
 }
 
 .our-team-cont {
@@ -264,6 +265,8 @@ a {
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
+    margin-bottom: 50px;
+}
 }
 
 .our-team-title {
@@ -278,8 +281,7 @@ a {
     font-weight: 500;
     text-align: center;
     color: var(--secondary-color);
-    margin-bottom: 50px;
-    padding-top: 94px;
+    
     
 }
 
@@ -324,6 +326,7 @@ a {
 .portfolio-group {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
     
 }
 
@@ -336,15 +339,15 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: -30px;
 }
 
 .portfolio-button {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
     padding: 6px 22px;
-    
     background: var(--grey-color);
     color: var(--secondary-color);
     border-radius: 4px;
@@ -360,17 +363,18 @@ a {
 
 .gallery-cont {
     padding: 20px 24px;
+    border: 1px solid var(--border-color);
 }
 
 .gallery-title {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin-bottom: 4px;
     color: var(--secondary-color); 
 }
 
 .gallery-list {
-    border: 1px solid var(--border-color);
     box-sizing: border-box;
     margin-top: 30px; 
 }
