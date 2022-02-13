@@ -350,6 +350,7 @@ a {
 }
 
 .portfolio-button {
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -370,7 +371,9 @@ a {
 
 .gallery-cont {
     padding: 20px 24px;
-    border: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
 }
 
 .gallery-title {
