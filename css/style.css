@@ -29,7 +29,7 @@ p {
 
 img {
     display: block;
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -38,7 +38,7 @@ img {
 }
 
 .container {
-    width: 1170px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -171,6 +171,7 @@ a {
     background-color: var(--brand-color);
     color: var(--fourth-color);
     min-width: 200px;
+    min-height: 50px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border-color: transparent;
@@ -223,6 +224,10 @@ a {
 
 /*we-doing----------------we-doing*/
 
+.we-doing {
+    padding-top: 0;
+}
+
 .we-doing-title {
     font-size: 36px;
     line-height: 1.17;
@@ -260,14 +265,13 @@ a {
     padding-bottom: 30px;
 }
 
-.our-team-title,
-.our-team-text {
+.our-team-title {
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
     margin-bottom: 50px;
 }
-}
+
 
 .our-team-title {
     margin-bottom: 10px;
@@ -277,8 +281,8 @@ a {
 
 .our-team-title-text {
     font-size: 36px;
-    line-height: 1.15;
-    font-weight: 500;
+    line-height: 1.17;
+    margin-bottom: 50px;
     text-align: center;
     color: var(--secondary-color);
     
@@ -286,6 +290,9 @@ a {
 }
 
 .our-team-text {  
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
     color: var(--tripartite-color);
 }
 
